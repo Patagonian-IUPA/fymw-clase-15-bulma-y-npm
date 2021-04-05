@@ -1,3 +1,5 @@
-$warning: #118AB2;
+// sobreescribimos la variable `$warning` definida en
+// `node_modules/bulma/sass/utilities/derived-variables.sass`
+$warning: #E76F51;
 
 @import 'node_modules/bulma/bulma.sass';
