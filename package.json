@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass node_modules/bulma/bulma.sass:dist/compilado.css"
+    "build": "sass fuente.scss:dist/compilado.css",
+    "dev": "sass fuente.scss:dist/compilado.css --watch"
   },
   "keywords": [],
   "author": "",
